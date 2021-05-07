@@ -16,6 +16,7 @@ const stakeRouter = require('./stakeRouter');
 const statsRouter = require('./statsRouter');
 const tokensRouter = require('./tokensRouter');
 const transactionsRouter = require('./transactionsRouter');
+const taxreportRouter = require('./taxreportRouter');
 
 module.exports = {
   indexRouter,
@@ -36,4 +37,5 @@ module.exports = {
   statsRouter,
   tokensRouter,
   transactionsRouter,
+  taxreportRouter,
 };
